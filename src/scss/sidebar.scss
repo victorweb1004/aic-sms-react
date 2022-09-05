@@ -1,0 +1,7 @@
+#navlist i {
+  transition: ease-in-out transform 0.3s;
+}
+
+#navlist a:hover i {
+  transform: translate(8px);
+}

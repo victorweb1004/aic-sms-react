@@ -1,0 +1,15 @@
+#VerticalLineLeft {
+  position: relative;
+  transform: translateX(12px);
+}
+
+#VerticalLineLeft::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 4px;
+  border-radius: 12px;
+  width: 4px;
+  height: 60%;
+  background-color: $primarylight;
+}
